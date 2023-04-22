@@ -1,0 +1,157 @@
+{
+  "tree": {
+    "name": "Data wrangling",
+    "tree": [
+      {
+        "id": "dmg-1",
+        "title": "Data wrangling basics",
+        "icon": "icons/RoundIcons_FreeSet-35.svg",
+        "tooltip": {
+          "content": "Understand the basics of workflows and pipelines for wrangling data."
+        },
+        "children": [
+          {
+            "id": "alt-1",
+            "title": "Running Workflows",
+            "icon": "icons/pipe.svg",
+            "tooltip": {
+              "content": "Run a workflow created by colleagues, e.g. using Alteryx or Python"
+            },
+            "children": [
+              {
+                "id": "alt-2",
+                "title": "Creating Workflows",
+                "icon": "icons/pipe.svg",
+                "tooltip": {
+                  "content": "Create workflows to load, clean ,merge and reshape data files (e.g. CSVs using Alteryx or Python)"
+                },
+                "children": [
+                  {
+                    "id": "alt-3",
+                    "title": "Documentation and reuse",
+                    "icon": "icons/practices.png",
+                    "tooltip": {
+                      "content": "Use comments, containers and documentation to ensure workflows can be understood, reused and modified by colleagues"
+                    },
+                    "children": [
+                      {
+                        "id": "alt-13",
+                        "title": "Optimisation and refactoring",
+                        "icon": "icons/practices.png",
+                        "tooltip": {
+                          "content": "Refactor workflows to improve modularity, reuse and performance. Convert workflows to use the most appropriate tools."
+                        },
+                        "children": [
+                        ]
+                      },
+                      {
+                        "id": "alt-14",
+                        "title": "Quality checks",
+                        "icon": "icons/practices.png",
+                        "tooltip": {
+                          "content": "Include built-in data quality checking in workflows."
+                        },
+                        "children": [
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "alt-4",
+                    "title": "Workflows with text and markup",
+                    "icon": "icons/xml.svg",
+                    "tooltip": {
+                      "content": "Use Alteryx, Python or R to process text, XML and HTML documents and extract data and text e.g. using LXML"
+                    },
+                    "children": [
+                    ]
+                  },
+                  {
+                    "id": "alt-5",
+                    "title": "Workflows with databases",
+                    "icon": "icons/database.png",
+                    "tooltip": {
+                      "content": "Create  workflows that utilise external non-file connections to improve performance, e.g. using in-DB tools in Alteryx"
+                    },
+                    "children": [
+                    ]
+                  },
+                  {
+                    "id": "alt-6",
+                    "title": "Workflows with APIs",
+                    "icon": "icons/optimisation.png",
+                    "tooltip": {
+                      "content": "Create workflows that utilise APIs"
+                    },
+                    "children": [
+                    ]
+                  },
+                  {
+                    "id": "alt-7",
+                    "title": "Workflow macros",
+                    "icon": "icons/pipe.svg",
+                    "tooltip": {
+                      "content": "Create  workflows with advanced features such as macros, dynamic tools"
+                    },
+                    "children": [
+                      {
+                        "id": "alt-8",
+                        "title": "Workflow components",
+                        "icon": "icons/pipe.svg",
+                        "tooltip": {
+                          "content": "Create new reusable data processing components for team to use, e.g. Alteryx macros, python apps and batch scripts"
+                        },
+                        "children": [
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "alt-9",
+                    "title": "Workflow tests",
+                    "icon": "icons/pipe.svg",
+                    "tooltip": {
+                      "content": "Incorporate tests within or alongside workflows to perform QA checks, e.g. Alteryx Test tools, Kinesis CI"
+                    },
+                    "children": [
+                    ]
+                  },
+                  {
+                    "id": "alt-10",
+                    "title": "Flexible data pipelines",
+                    "icon": "icons/pipe.svg",
+                    "tooltip": {
+                      "content": "Build pipelines involving multiple technologies and methods (e.g. Python + R + SQL + Alteryx)"
+                    },
+                    "children": [
+                      {
+                        "id": "alt-11",
+                        "title": "Advanced data pipelines",
+                        "icon": "icons/pipe.svg",
+                        "tooltip": {
+                          "content": "Designs advanced wrangling methods using techniques such as machine learning and natural language processing. Writes automated processes.  Is able to use more complex database warehouses and languages (eg graph and sparql). "
+                        },
+                        "children": [
+                        ]
+                      },
+                      {
+                        "id": "alt-12",
+                        "title": "Alternative pipeline tools",
+                        "icon": "icons/pipe.svg",
+                        "tooltip": {
+                          "content": "Use tools such as Apache Kafka, Airflow and Spark to build advanced pipelines. "
+                        },
+                        "children": [
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
