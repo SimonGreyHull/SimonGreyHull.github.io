@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/SkillsTree/static/css/main.b0265012.css",
-    "main.js": "/SkillsTree/static/js/main.65c17364.js",
+    "main.js": "/SkillsTree/static/js/main.d300e061.js",
     "static/js/787.a219fcc8.chunk.js": "/SkillsTree/static/js/787.a219fcc8.chunk.js",
     "static/media/compass.png": "/SkillsTree/static/media/compass.97a04d424fa955368828.png",
     "index.html": "/SkillsTree/index.html",
     "main.b0265012.css.map": "/SkillsTree/static/css/main.b0265012.css.map",
-    "main.65c17364.js.map": "/SkillsTree/static/js/main.65c17364.js.map",
+    "main.d300e061.js.map": "/SkillsTree/static/js/main.d300e061.js.map",
     "787.a219fcc8.chunk.js.map": "/SkillsTree/static/js/787.a219fcc8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b0265012.css",
-    "static/js/main.65c17364.js"
+    "static/js/main.d300e061.js"
   ]
 }
